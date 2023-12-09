@@ -32,3 +32,14 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+header{
+    margin:auto;
+    padding:20px;
+    background-color: limegreen;
+}
+
+#nav1, nav2 {
+    float:left;
+    margin-right: 20px;
+}
