@@ -14,4 +14,5 @@ function calculateBudget() {
     // Display Results
     document.getElementById("resultRemainingDays").textContent = remainingDays;
     document.getElementById("resultPerDayBudget").textContent = perDayBudget.toFixed(2); // Rounded to 2 decimal places
+    document.getElementById("resultPerDayBudgetFlightAhead").textContent = perDayBudgetFlightAhead.toFixed(2);
 }
