@@ -11,6 +11,9 @@ function calculateBudget() {
     // Calculate Per Day Budget
     const perDayBudget = remainingBudget / remainingDays;
 
+    // Calculate Per Day Budget Flight Ahead
+    const perDayBudgetFlightAhead = perDayBudget * 1.20;
+
     // Display Results
     document.getElementById("resultRemainingDays").textContent = remainingDays;
     document.getElementById("resultPerDayBudget").textContent = perDayBudget.toFixed(2); // Rounded to 2 decimal places
